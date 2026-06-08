@@ -1,0 +1,13 @@
+{
+  "valid_item": {
+    "title": "Sample Inventory Item",
+    "description": "Used for automated CRUD validation"
+  },
+  "updated_item": {
+    "title": "Updated Inventory Item",
+    "description": "Updated by automation test"
+  },
+  "minimal_item": {
+    "title": "Minimal Item"
+  }
+}

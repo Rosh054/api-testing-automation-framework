@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["id", "title", "owner_id", "is_deleted", "created_at", "updated_at"],
+  "properties": {
+    "id": { "type": "integer" },
+    "title": { "type": "string" },
+    "description": { "type": ["string", "null"] },
+    "owner_id": { "type": "integer" },
+    "is_deleted": { "type": "boolean" },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

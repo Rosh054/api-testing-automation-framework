@@ -1,0 +1,16 @@
+{
+  "valid_user": {
+    "email": "framework.tester@example.com",
+    "password": "SecurePass123!",
+    "full_name": "Framework Tester"
+  },
+  "duplicate_user": {
+    "email": "duplicate@example.com",
+    "password": "SecurePass123!",
+    "full_name": "Duplicate User"
+  },
+  "invalid_login": {
+    "email": "framework.tester@example.com",
+    "password": "WrongPassword!"
+  }
+}
